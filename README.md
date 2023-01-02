@@ -36,3 +36,10 @@ Hi! I'm a mobile application developer, excellent analytical and design capabili
 <br/>![Hmshohrab's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=hmshohrab&layout=compact&theme=radical)<br/>
 
 ![Metrics](https://metrics.lecoq.io/hmshohrab)
+
+## 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=hmshohrab&theme=dark&hide_border=true&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=hmshohrab&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+
+---
+[![](https://visitcount.itsvg.in/api?id=hmshohrab&icon=2&color=0)](https://visitcount.itsvg.in)
