@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Android",
+        "icon": "https://img.icons8.com/fluency/48/000000/android-os.png",
+        "isVisible": true
+    },
+    {
+        "name": "Flutter",
+        "icon": "https://img.icons8.com/fluency/48/000000/flutter.png",
+        "isVisible": true
+    },
+    {
+        "name": "iOS",
+        "icon": "https://img.icons8.com/fluency/48/000000/mac-os.png",
+        "isVisible": true
+    },
+    {
+        "name": "Firebase",
+        "icon": "https://img.icons8.com/color/48/000000/firebase.png",
+        "isVisible": true
+    },
+    {
+        "name": "MaterialUI",
+        "icon": "https://img.icons8.com/color/48/000000/material-ui.png",
+        "isVisible": true
+    },
+    {
+        "name": "Dart",
+        "icon": "https://img.icons8.com/color/48/000000/dart.png",
+        "isVisible": true
+    },
+    {
+        "name": "Java",
+        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png",
+        "isVisible": true
+    },
+    {
+        "name": "Kotlin",
+        "icon": "https://img.icons8.com/color/48/000000/kotlin.png",
+        "isVisible": true
+    },
+    {
+        "name": "AWS",
+        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png",
+        "isVisible": true
+    },
+    {
+        "name": "Google Cloud",
+        "icon": "https://img.icons8.com/color/48/000000/google-cloud.png",
+        "isVisible": true
+    },
+    {
+        "name": "Git VCS",
+        "icon": "https://img.icons8.com/color/48/000000/git.png",
+        "isVisible": true
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png",
+        "isVisible": true
+    }
+]

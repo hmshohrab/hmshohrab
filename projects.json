@@ -1,0 +1,408 @@
+[
+  {
+    "name": "JomiBaba Android",
+    "desc": "Fully fledged android Functional app based on different design patterns. Built using Kotlin, XML, SQLite, RoomDB, Retrofit, Rest Api, MVVM.",
+    "image": "jomibaba-app.png",
+    "category": "android",
+    "links": {
+      "view": "https://play.google.com/store/apps/details?id=com.jomibaba",
+      "code": "#"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "JomiBaba IOS",
+    "desc": "Fully fledged ios Functional app based on different design patterns. Built using Flutter, Dart, Provider, Dio, Rest Api, MVVM.",
+    "image": "jomibaba-ios-app.png",
+    "category": "ios",
+    "links": {
+      "view": "https://apps.apple.com/us/app/jomibaba/id1562000907",
+      "code": "#"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "AnyDoctor Android",
+    "desc": "Fully fledged android Functional app based on different design patterns. Built using Kotlin, XML, SQLite, RoomDB, Retrofit, Rest Api, MVVM.",
+    "image": "anydoctor-app.png",
+    "category": "android",
+    "links": {
+      "view": "https://play.google.com/store/apps/details?id=bd.com.anydoctor&hl=en&gl=US",
+      "code": "#"
+    },
+    "isVisible": true
+  },
+  {
+    "name": "e-Prescription Maker Android",
+    "desc": "Fully fledged android Functional app based on different design patterns. Built using Kotlin, XML, SQLite, RoomDB, Retrofit, Rest Api, MVVM.",
+    "image": "e-prescription-app.png",
+    "category": "android",
+    "links": {
+      "view": "https://play.google.com/store/apps/details?id=xyz.eprescription&hl=en&gl=US",
+      "code": "#"
+    },
+    "isVisible": true
+  },
+  {
+    "name": "LandRegistrationBD",
+    "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
+    "image": "landregistrationbd.png",
+    "category": "android",
+    "links": {
+      "view": "https://drive.google.com/file/d/1iA0lror_e-LSI9dDZSOJM8xwXjtJ8xsS/view?usp=share_linkTetrZRCvi/view?usp=share_link",
+      "code": "https://play.google.com/store/apps/details?id=com.landregistration.landregistrationbd&hl=en-GB"
+    },
+    "isVisible": true
+  },
+  {
+    "name": "LandAct Android",
+    "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
+    "image": "land-act.png",
+    "category": "android",
+    "links": {
+      "view": "https://drive.google.com/file/d/1MVSD8xgQWmp95h2d5fLLU3ScGj3-91gE/view?usp=share_link",
+      "code": "https://play.google.com/store/apps/details?id=com.landregistration.kajioffice"
+    },
+    "isVisible": true
+  },
+  {
+    "name": "E-Mutation Android",
+    "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
+    "image": "e-mutation.png",
+    "category": "android",
+    "links": {
+      "view": "https://drive.google.com/file/d/1Vc9xUSLZ7jjiih65SiHj33WTetrZRCvi/view?usp=share_link",
+      "code": "https://play.google.com/store/apps/details?id=com.landregistration.namjari_info"
+    },
+    "isVisible": true
+  },
+  {
+    "name": "KajiOffice Android",
+    "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
+    "image": "kaji-office.png",
+    "category": "android",
+    "links": {
+      "view": "https://drive.google.com/file/d/1MVSD8xgQWmp95h2d5fLLU3ScGj3-91gE/view?usp=share_link",
+      "code": "https://play.google.com/store/apps/details?id=com.landregistration.kajioffice"
+    },
+    "isVisible": true
+  },
+  {
+    "name": "Instagram MERN",
+    "desc": "Full-Stack Instagram clone built using MERN stack and realtime chat with the help of socket.iO",
+    "image": "instagrammern",
+    "category": "mern",
+    "links": {
+      "view": "https://instagramernstack.herokuapp.com/",
+      "code": "https://github.com/jigar-sable/instagram-mern"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Flipkart MERN",
+    "desc": "Full-Stack Flipkart with Admin Dashboard and Paytm Payment Gateway. MERN Stack WebApp, ready to use for business.",
+    "image": "flipkartmern",
+    "category": "mern",
+    "links": {
+      "view": "https://flipkartwebs.herokuapp.com/",
+      "code": "https://github.com/jigar-sable/flipkart-mern"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "ResumeGen",
+    "desc": "ReactJS Basic Resume Generator which will generate customized resume in few minutes on your requirements.",
+    "image": "resumegen",
+    "category": "mern",
+    "links": {
+      "view": "https://resumegenx.netlify.app/",
+      "code": "https://github.com/jigar-sable/resumegen"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "React-Projects",
+    "desc": "Full-Stack project dashboard which is collection of projects built on the React library.",
+    "image": "reactprojects",
+    "category": "mern",
+    "links": {
+      "view": "https://reactjsprojects.herokuapp.com/",
+      "code": "https://github.com/jigar-sable/React-Projects"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Flipkart PHP",
+    "desc": "Full-Stack Flipkart Clone Using LAMP Stack. With all major features and OTP authentication and Cashfree payment gateway.",
+    "image": "flipkartphp",
+    "category": "lamp",
+    "links": {
+      "view": "https://github.com/jigar-sable/Flipkart-Clone-PHP",
+      "code": "https://github.com/jigar-sable/Flipkart-Clone-PHP"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "JavaScript Projects Website",
+    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
+    "image": "jspro",
+    "category": "basicweb",
+    "links": {
+      "view": "https://jigar-sable.github.io/JavaScript-Projects",
+      "code": "https://github.com/jigar-sable/JavaScript-Projects"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Web UI Clones",
+    "desc": "Flipkart, YouTube, Instagram, Sololearn web UI clones using tailwindCSS.",
+    "image": "webuiclones",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/jigar-sable/web-ui-clones",
+      "code": "https://github.com/jigar-sable/web-ui-clones"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Crypto Tracker",
+    "desc": "Crypto Tracker built using ReactJS and Chakra UI. Supports dark mode. API used coingecko.",
+    "image": "cryptotracker",
+    "category": "mern",
+    "links": {
+      "view": "https://crypto-tracker-react-project.netlify.app/",
+      "code": "https://github.com/jigar-sable/React-Projects/tree/main/crypto-tracker"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Hulu Website",
+    "desc": "Hulu website built using NextJS and tailwindCSS. API used TMDB, deployed on vercel.",
+    "image": "hulu",
+    "category": "mern",
+    "links": {
+      "view": "https://hulu-clone-jigar-sable.vercel.app/",
+      "code": "https://github.com/jigar-sable/React-Projects/tree/main/hulu-clone"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Portfolio Website",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "portfolio1",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/jigar-sable/Portfolio-Website"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Composey Website",
+    "desc": "Simple landing page website built using HTML, CSS, JavaScript and some JavaScript Libraries.",
+    "image": "composey",
+    "category": "basicweb",
+    "links": {
+      "view": "https://composey.netlify.app/",
+      "code": "https://github.com/jigar-sable/LGMVIP-WebDev"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Webview App",
+    "desc": "It's an android app which uses web view component for displaying content. This app provides many different features.",
+    "image": "webviewapp",
+    "category": "android",
+    "links": {
+      "view": "https://github.com/jigar-sable/Android-Webview#webapp--android-webview-app",
+      "code": "https://github.com/jigar-sable/Android-Webview"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "PHP Banking Website",
+    "desc": "Basic Banking System based on PHP and MySQL database. Made with HTML, CSS, JavaScript and backend with PHP.",
+    "image": "tsfbank",
+    "category": "lamp",
+    "links": {
+      "view": "https://tsfbank.rf.gd",
+      "code": "https://github.com/jigar-sable/TSF-Bank"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Bootstrap Portfolio",
+    "desc": "Portfolio built using HTML, CSS, Bootstrap, SASS and JavaScript. Customized Bootstrap using SCSS.",
+    "image": "bootstrapportfolio",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Bootstrap Template",
+    "desc": "Basic website template built using HTML and Bootstrap.",
+    "image": "bootstraptemplate",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Foodicious",
+    "desc": "Basic food website landing page built using HTML, CSS and JavaScript.",
+    "image": "foodicious",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Food Website",
+    "desc": "Basic food website landing page built using HTML, CSS, SASS, Bootstrap and jQuery.",
+    "image": "foodwebsite",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "WebChat Website",
+    "desc": "It's a web based chat app made using popular javaScript library Socket IO. Allows multiple users to connect.",
+    "image": "webchat",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/jigar-sable/WebChat#webchat",
+      "code": "https://github.com/jigar-sable/WebChat"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Basic Banking App",
+    "desc": "It's an android app which uses SQLite to store user accounts data. It provides feature to simply transact amount.",
+    "image": "basicbank",
+    "category": "android",
+    "links": {
+      "view": "https://github.com/jigar-sable/Basic_Banking_App#basic-banking-app",
+      "code": "https://github.com/jigar-sable/Basic_Banking_App"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "JavaScript Issue Tracker",
+    "desc": "It provides the feature to Assign Issue With The Auto Generated Id By Using ChanceJS. Uses Local Storage.",
+    "image": "issuetrack",
+    "category": "basicweb",
+    "links": {
+      "view": "https://jigar-sable.github.io/JavaScript-Projects/projects/issuetracker",
+      "code": "https://github.com/jigar-sable/JavaScript-Projects/tree/main/projects/issuetracker"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "PHP PBL Portal",
+    "desc": "A simple portal in which students can submit their PBL projects and faculties can view by access admin panel.",
+    "image": "phppblform",
+    "category": "lamp",
+    "links": {
+      "view": "https://github.com/jigar-sable/PHP-Projects/tree/main/pblform#pbl-portal",
+      "code": "https://github.com/jigar-sable/PHP-Projects/tree/main/pblform"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Link List",
+    "desc": "All major profile links in a single website. It's just like clone of link tree. Personalized and Responsive.",
+    "image": "linklist",
+    "category": "basicweb",
+    "links": {
+      "view": "https://jigar-sable.github.io/LinkList",
+      "code": "https://github.com/jigar-sable/LinkList"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Job Finder Dummy",
+    "desc": "It Fetch JSON Data And Allow Feature To Search Within The Content Displayed. Will be Developed By Using Live APIs.",
+    "image": "saas",
+    "category": "basicweb",
+    "links": {
+      "view": "https://jigar-sable.github.io/JavaScript-Projects/api-projects/saas-jobs",
+      "code": "https://github.com/jigar-sable/JavaScript-Projects/tree/main/api-projects/saas-jobs"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Old Websites",
+    "desc": "Bestwebs & ColorCoder. Two Years old websites memories. Simple with basic features.",
+    "image": "oldsites",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Resistor Color Codes",
+    "desc": "Simply provides the color codes of resistors. Calculation information and about resistors.",
+    "image": "resistercolor",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "KIA Info Website",
+    "desc": "Basic KIA webpage displays the info about seltos product range. Specs and Image Gallery.",
+    "image": "kiaweb",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Burger Shop Dummy",
+    "desc": "Basic burger shop webpage allow users to check menu and price. Dummy Order Form.",
+    "image": "burgerweb",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Indian Temples",
+    "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
+    "image": "templeweb",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    },
+    "isVisible": false
+  },
+  {
+    "name": "Indian Temples",
+    "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
+    "image": "templeweb",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  }
+]
