@@ -56,3 +56,5 @@ Hi! I'm a mobile application developer, excellent analytical and design capabili
 
   ## 💰 For a Coffee?
   [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/hmshohrab) 
+
+<img src="https://profile-counter.glitch.me/hmshohrab/count.svg" />
