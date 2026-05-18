@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Md Shohrab Hossen | Mobile App Engineer</title>
+  <meta name="description" content="Portfolio of Md Shohrab Hossen, Software Engineer (Android & Flutter) with 5+ years of experience.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --surface: #ffffff;
+      --ink: #0f172a;
+      --muted: #425466;
+      --brand: #0b5fff;
+      --brand-soft: #e8f0ff;
+      --line: #dde5f0;
+      --shadow: 0 12px 30px rgba(21, 45, 91, 0.12);
+      --radius: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Manrope", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 8%, #dce7ff 0, transparent 34%),
+        radial-gradient(circle at 88% 16%, #d7f3ff 0, transparent 30%),
+        linear-gradient(180deg, #f8fbff 0%, #f2f6fc 56%, #eef3fa 100%);
+      line-height: 1.55;
+    }
+
+    .page {
+      width: min(1100px, 92vw);
+      margin: 36px auto 64px;
+      display: grid;
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .hero {
+      padding: 32px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: -80px -30px auto auto;
+      width: 240px;
+      height: 240px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #0b5fff 0%, #33a8ff 100%);
+      opacity: 0.14;
+      pointer-events: none;
+    }
+
+    .hero-top {
+      display: flex;
+      gap: 18px;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .hero-intro {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .hero-photo {
+      width: 118px;
+      height: 148px;
+      border-radius: 12px;
+      border: 2px solid #d7e5ff;
+      overflow: hidden;
+      background: #edf4ff;
+      box-shadow: 0 8px 18px rgba(21, 45, 91, 0.16);
+      flex: 0 0 auto;
+    }
+
+    .hero-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    h1, h2, h3 {
+      margin: 0;
+      font-family: "Sora", sans-serif;
+      letter-spacing: -0.02em;
+    }
+
+    h1 {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 800;
+    }
+
+    .subtitle {
+      margin-top: 6px;
+      color: var(--muted);
+      font-weight: 700;
+      font-size: 0.98rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .hero-meta {
+      margin-top: 8px;
+      color: #324154;
+      font-size: 0.95rem;
+    }
+
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      text-decoration: none;
+      color: var(--ink);
+      font-weight: 700;
+      font-size: 0.9rem;
+      background: #fff;
+      transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      border-color: #bcd1f7;
+      background: #f5f9ff;
+    }
+
+    .stats {
+      margin-top: 22px;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .stat {
+      background: var(--brand-soft);
+      border: 1px solid #ccdcff;
+      border-radius: 12px;
+      padding: 12px 14px;
+    }
+
+    .stat b {
+      display: block;
+      font-family: "Sora", sans-serif;
+      font-size: 1.1rem;
+      margin-bottom: 2px;
+    }
+
+    .stat span {
+      color: #2f4464;
+      font-size: 0.87rem;
+    }
+
+    .grid-two {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 18px;
+    }
+
+    section {
+      padding: 24px;
+    }
+
+    .section-title {
+      font-size: 1.12rem;
+      margin-bottom: 14px;
+    }
+
+    .objective {
+      margin: 0;
+      color: #2d3d51;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .tag {
+      border: 1px solid var(--line);
+      background: #f9fbff;
+      padding: 8px 11px;
+      border-radius: 999px;
+      font-size: 0.86rem;
+      font-weight: 700;
+      color: #243b5a;
+    }
+
+    .timeline {
+      display: grid;
+      gap: 14px;
+    }
+
+    .role {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 13px 14px;
+      background: #fcfdff;
+    }
+
+    .role h3 {
+      font-size: 0.98rem;
+      margin-bottom: 3px;
+    }
+
+    .role .meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 7px;
+      font-weight: 700;
+    }
+
+    .role ul {
+      margin: 0;
+      padding-left: 18px;
+      color: #334a66;
+      font-size: 0.9rem;
+    }
+
+    .role li + li {
+      margin-top: 4px;
+    }
+
+    .edu {
+      display: grid;
+      gap: 10px;
+      font-size: 0.95rem;
+      color: #2d3d51;
+    }
+
+    .edu b {
+      font-family: "Sora", sans-serif;
+      font-size: 0.92rem;
+    }
+
+    .skill-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .skill {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 8px 10px;
+      background: #fbfdff;
+      min-height: 48px;
+    }
+
+    .skill img {
+      width: 24px;
+      height: 24px;
+      object-fit: contain;
+    }
+
+    .skill span {
+      font-size: 0.86rem;
+      font-weight: 700;
+      color: #26384f;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .project {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 14px;
+      background: #fcfdff;
+      display: grid;
+      gap: 8px;
+    }
+
+    .project h3 {
+      font-size: 0.95rem;
+      margin: 0;
+    }
+
+    .project p {
+      margin: 0;
+      color: #34506d;
+      font-size: 0.89rem;
+    }
+
+    .project .chip {
+      display: inline-block;
+      width: fit-content;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: #eef4ff;
+      border: 1px solid #d8e4ff;
+      color: #1f4ea2;
+      font-size: 0.76rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .project a {
+      width: fit-content;
+      text-decoration: none;
+      color: #0b5fff;
+      font-size: 0.86rem;
+      font-weight: 800;
+    }
+
+    .footer-note {
+      margin-top: 2px;
+      font-size: 0.84rem;
+      color: #5a6e86;
+      text-align: right;
+    }
+
+    @media (max-width: 950px) {
+      .grid-two {
+        grid-template-columns: 1fr;
+      }
+
+      .projects {
+        grid-template-columns: 1fr;
+      }
+
+      .stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 620px) {
+      .page {
+        width: 94vw;
+        margin: 20px auto 34px;
+      }
+
+      .hero {
+        padding: 20px;
+      }
+
+      section {
+        padding: 18px;
+      }
+
+      .skill-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .stats {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-photo {
+        width: 96px;
+        height: 122px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="card hero">
+      <div class="hero-top">
+        <div class="hero-intro">
+          <div id="photo-wrap" class="hero-photo" hidden>
+            <img id="person-photo" alt="Passport photo">
+          </div>
+          <div>
+            <h1 id="person-name">Md Shohrab Hossen</h1>
+            <div id="person-title" class="subtitle">Software Engineer (Android & Flutter)</div>
+            <div id="person-location" class="hero-meta">Badda, Dhaka, Bangladesh</div>
+          </div>
+        </div>
+        <div id="contact-list" class="contact"></div>
+      </div>
+      <div id="stats-list" class="stats"></div>
+    </header>
+
+    <div class="grid-two">
+      <section class="card">
+        <h2 class="section-title">Career Objective</h2>
+        <p id="objective-text" class="objective"></p>
+        <div id="highlight-tags" class="tags"></div>
+      </section>
+
+      <section class="card">
+        <h2 class="section-title">Education & Languages</h2>
+        <div id="edu-list" class="edu"></div>
+      </section>
+    </div>
+
+    <section class="card">
+      <h2 class="section-title">Experience</h2>
+      <div id="experience-list" class="timeline"></div>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Technical Skills</h2>
+      <div id="skill-grid" class="skill-grid"></div>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Notable Projects</h2>
+      <div id="projects" class="projects"></div>
+      <div id="last-updated" class="footer-note"></div>
+    </section>
+  </main>
+
+  <script>
+    const fallbackProfile = {
+      person: {
+        name: "Md Shohrab Hossen",
+        title: "Software Engineer (Android & Flutter)",
+        location: "Badda, Dhaka, Bangladesh",
+        photo: "passport-photo.jpg",
+        contacts: [
+          { label: "LinkedIn", url: "https://linkedin.com/in/hmshohrab" },
+          { label: "GitHub", url: "https://github.com/Hmshohrab" },
+          { label: "Email", url: "mailto:hmshohrab20@gmail.com" }
+        ]
+      },
+      stats: [
+        { value: "5+ Years", label: "Android & Flutter Experience" },
+        { value: "7 Projects", label: "Core Apps in Portfolio" },
+        { value: "3 Domains", label: "Telemedicine, Land, GovTech" },
+        { value: "2026 CV", label: "Aligned with Latest Profile" }
+      ],
+      objective: "I am a mobile app developer with over 5 years of experience in Android and Flutter. I have worked on telemedicine, land services, and government-related applications, with continuous focus on real-world problem solving, performance, and user experience.",
+      highlightTags: ["Kotlin", "Java", "Dart", "Android", "Flutter", "Compose Multiplatform", "REST API", "Firebase", "Socket.IO"],
+      experience: [
+        {
+          role: "Software Engineer (Android & Flutter)",
+          company: "Pilot Bazar Limited",
+          period: "Feb 2025 - Present",
+          location: "Gulshan, Dhaka",
+          points: [
+            "Developing and maintaining mobile apps for vehicle marketplace workflows.",
+            "Contributing to Click4Details with listing and specification focused features.",
+            "Integrating APIs and improving performance for smoother app navigation."
+          ]
+        }
+      ],
+      education: [
+        { degree: "BSc in Computer Science & Engineering", institute: "World University of Bangladesh", period: "2021 - 2024" },
+        { degree: "Diploma in Computer Engineering", institute: "Chandpur Polytechnic Institute", period: "2015 - 2019" }
+      ],
+      languages: ["Bangla (Native)", "English (Comfortable)"],
+      lastUpdated: "April 13, 2026 (CV v4.0)"
+    };
+
+    const fallbackSkills = [
+      { name: "Android", icon: "https://img.icons8.com/fluency/48/000000/android-os.png" },
+      { name: "Flutter", icon: "https://img.icons8.com/fluency/48/000000/flutter.png" },
+      { name: "Compose Multiplatform", icon: "https://img.icons8.com/color/48/000000/kotlin.png" },
+      { name: "Kotlin", icon: "https://img.icons8.com/color/48/000000/kotlin.png" },
+      { name: "Java", icon: "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" },
+      { name: "Dart", icon: "https://img.icons8.com/color/48/000000/dart.png" },
+      { name: "Firebase", icon: "https://img.icons8.com/color/48/000000/firebase.png" },
+      { name: "SQLite/Room", icon: "https://img.icons8.com/fluency/48/database.png" },
+      { name: "MySQL", icon: "https://img.icons8.com/color/48/000000/mysql-logo.png" }
+    ];
+
+    const fallbackProjects = [
+      { name: "Click4Details", desc: "Vehicle marketplace app for exploring new, reconditioned, and used cars.", category: "flutter", links: { view: "#" } },
+      { name: "HelloCt", desc: "Anonymous crime reporting app for Dhaka Metropolitan Police.", category: "flutter", links: { view: "#" } },
+      { name: "MuminsDay", desc: "Multiplatform app for prayer time, sehri/iftar schedule, and Islamic calendar.", category: "multiplatform", links: { view: "#" } },
+      { name: "LandRegistrationBD", desc: "Android app for land-related information and Q&A support.", category: "android", links: { view: "#" } },
+      { name: "AnyDoctor", desc: "Telemedicine app for real-time doctor-patient consultation.", category: "android", links: { view: "#" } },
+      { name: "JomiBaba Android", desc: "Land consultation app with messaging and payment integration.", category: "android", links: { view: "#" } },
+      { name: "Cashkeeper", desc: "Personal finance app for tracking income, expenses, and cash flow.", category: "flutter", links: { view: "#" } }
+    ];
+
+    function renderProfile(profile) {
+      const person = profile.person || {};
+      document.getElementById("person-name").textContent = person.name || "";
+      document.getElementById("person-title").textContent = person.title || "";
+      document.getElementById("person-location").textContent = person.location || "";
+
+      const photoWrap = document.getElementById("photo-wrap");
+      const photoEl = document.getElementById("person-photo");
+      if (person.photo) {
+        photoEl.src = person.photo;
+        photoWrap.hidden = false;
+        photoEl.onerror = function () {
+          photoWrap.hidden = true;
+        };
+      } else {
+        photoWrap.hidden = true;
+      }
+
+      const contacts = document.getElementById("contact-list");
+      contacts.innerHTML = "";
+      (person.contacts || []).forEach((contact) => {
+        const a = document.createElement("a");
+        a.className = "btn";
+        a.href = contact.url || "#";
+        a.textContent = contact.label || "Link";
+        if (a.href.startsWith("http")) {
+          a.target = "_blank";
+          a.rel = "noreferrer";
+        }
+        contacts.appendChild(a);
+      });
+
+      const stats = document.getElementById("stats-list");
+      stats.innerHTML = "";
+      (profile.stats || []).forEach((item) => {
+        const card = document.createElement("div");
+        card.className = "stat";
+        card.innerHTML = "<b>" + (item.value || "") + "</b><span>" + (item.label || "") + "</span>";
+        stats.appendChild(card);
+      });
+
+      document.getElementById("objective-text").textContent = profile.objective || "";
+
+      const tags = document.getElementById("highlight-tags");
+      tags.innerHTML = "";
+      (profile.highlightTags || []).forEach((tag) => {
+        const span = document.createElement("span");
+        span.className = "tag";
+        span.textContent = tag;
+        tags.appendChild(span);
+      });
+
+      const edu = document.getElementById("edu-list");
+      edu.innerHTML = "";
+      (profile.education || []).forEach((item) => {
+        const block = document.createElement("div");
+        block.innerHTML = "<b>" + item.degree + "</b><br>" + item.institute + " | " + item.period;
+        edu.appendChild(block);
+      });
+
+      if ((profile.languages || []).length) {
+        const lang = document.createElement("div");
+        lang.innerHTML = "<b>Languages</b><br>" + profile.languages.join(", ");
+        edu.appendChild(lang);
+      }
+
+      const exp = document.getElementById("experience-list");
+      exp.innerHTML = "";
+      (profile.experience || []).forEach((item) => {
+        const role = document.createElement("article");
+        role.className = "role";
+        const list = (item.points || []).map((p) => "<li>" + p + "</li>").join("");
+        role.innerHTML =
+          "<h3>" + item.role + " | " + item.company + "</h3>" +
+          '<div class="meta">' + item.period + " | " + item.location + "</div>" +
+          "<ul>" + list + "</ul>";
+        exp.appendChild(role);
+      });
+
+      document.getElementById("last-updated").textContent = "Last updated: " + (profile.lastUpdated || "");
+    }
+
+    function renderSkills(skills) {
+      const target = document.getElementById("skill-grid");
+      target.innerHTML = "";
+      skills
+        .filter((s) => s.isVisible !== false)
+        .forEach((skill) => {
+          const item = document.createElement("div");
+          item.className = "skill";
+          item.innerHTML = '<img src="' + skill.icon + '" alt="' + skill.name + ' icon" loading="lazy"><span>' + skill.name + "</span>";
+          target.appendChild(item);
+        });
+    }
+
+    function renderProjects(projects) {
+      const target = document.getElementById("projects");
+      target.innerHTML = "";
+      projects
+        .filter((p) => p.isVisible !== false)
+        .forEach((project) => {
+          const card = document.createElement("article");
+          card.className = "project";
+          const viewLink = project.links && project.links.view ? project.links.view : "#";
+          const safeLink = viewLink === "#" ? null : viewLink;
+          card.innerHTML =
+            '<span class="chip">' + (project.category || "mobile") + "</span>" +
+            "<h3>" + project.name + "</h3>" +
+            "<p>" + project.desc + "</p>" +
+            (safeLink ? '<a href="' + safeLink + '" target="_blank" rel="noreferrer">Open Project</a>' : "");
+          target.appendChild(card);
+        });
+    }
+
+    async function getJson(path) {
+      const res = await fetch(path);
+      if (!res.ok) {
+        throw new Error(path + " fetch failed");
+      }
+      return res.json();
+    }
+
+    async function hydrate() {
+      const [profileResult, skillsResult, projectsResult] = await Promise.allSettled([
+        getJson("./profile.json"),
+        getJson("./skills.json"),
+        getJson("./projects.json")
+      ]);
+
+      const profile = profileResult.status === "fulfilled" ? profileResult.value : fallbackProfile;
+      const skills = skillsResult.status === "fulfilled" ? skillsResult.value : fallbackSkills;
+      const projects = projectsResult.status === "fulfilled" ? projectsResult.value : fallbackProjects;
+
+      renderProfile(profile);
+      renderSkills(skills);
+      renderProjects(projects);
+    }
+
+    hydrate();
+  </script>
+</body>
+</html>

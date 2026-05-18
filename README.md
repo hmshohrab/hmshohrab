@@ -1,14 +1,14 @@
 # Md Shohrab Hossen
-**Software Engineer (Android & Flutter & Compose Multiplatform)**  
+**Software Engineer (Android & Flutter)**  
 Badda, Dhaka, Bangladesh
- ![](https://komarev.com/ghpvc/?username=hmshohrab&color=green)
+![](https://komarev.com/ghpvc/?username=hmshohrab&color=green)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hmshohrab-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/hmshohrab)
 [![GitHub](https://img.shields.io/badge/GitHub-Hmshohrab-181717?logo=github&logoColor=white)](https://github.com/Hmshohrab)
 [![Email](https://img.shields.io/badge/Email-hmshohrab20%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:hmshohrab20@gmail.com)
 
 ## Career Objective
 I am a mobile app developer with **5+ years** of experience in Android and Flutter development.  
-I have worked on telemedicine, land services, and government-related apps, always focusing on real-world problem solving, app performance, and better user experience.
+I have worked on telemedicine, land services, and government-related apps, always focusing on real-world problem solving, app performance, and user experience.
 
 ## Core Skills
 - **Languages:** Kotlin, Java, Dart
@@ -83,3 +83,5 @@ I have worked on telemedicine, land services, and government-related apps, alway
 ![](https://github-readme-stats.vercel.app/api?username=Hmshohrab&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Hmshohrab&theme=dark&hide_border=false)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Hmshohrab&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+Last updated: April 13, 2026 (CV v4.0)

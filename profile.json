@@ -1,0 +1,126 @@
+{
+  "person": {
+    "name": "Md Shohrab Hossen",
+    "title": "Software Engineer (Android & Flutter)",
+    "location": "Badda, Dhaka, Bangladesh",
+    "photo": "passport-photo.jpg",
+    "contacts": [
+      {
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/hmshohrab"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Hmshohrab"
+      },
+      {
+        "label": "Email",
+        "url": "mailto:hmshohrab20@gmail.com"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "value": "5+ Years",
+      "label": "Android & Flutter Experience"
+    },
+    {
+      "value": "7 Projects",
+      "label": "Core Apps in Portfolio"
+    },
+    {
+      "value": "3 Domains",
+      "label": "Telemedicine, Land, GovTech"
+    },
+    {
+      "value": "2026 CV",
+      "label": "Aligned with Latest Profile"
+    }
+  ],
+  "objective": "I am a mobile app developer with over 5 years of experience in Android and Flutter. I have worked on telemedicine, land services, and government-related applications, with continuous focus on real-world problem solving, performance, and user experience.",
+  "highlightTags": [
+    "Kotlin",
+    "Java",
+    "Dart",
+    "Android",
+    "Flutter",
+    "Compose Multiplatform",
+    "REST API",
+    "Firebase",
+    "Socket.IO"
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer (Android & Flutter)",
+      "company": "Pilot Bazar Limited",
+      "period": "Feb 2025 - Present",
+      "location": "Gulshan, Dhaka",
+      "points": [
+        "Developing and maintaining mobile apps for vehicle marketplace workflows.",
+        "Contributing to Click4Details with listing and specification focused features.",
+        "Integrating APIs and improving performance for smoother app navigation."
+      ]
+    },
+    {
+      "role": "Software Engineer (Flutter)",
+      "company": "Solution World Limited",
+      "period": "Mar 2023 - Feb 2025",
+      "location": "Mohakhali DOHS, Dhaka",
+      "points": [
+        "Built cross-platform Flutter applications with design/backend collaboration.",
+        "Contributed to HelloCt app for Dhaka Metropolitan Police.",
+        "Improved app stability through issue fixes and third-party integrations."
+      ]
+    },
+    {
+      "role": "Software Engineer (Android & Flutter)",
+      "company": "Data Grid Limited",
+      "period": "May 2022 - Jul 2023",
+      "location": "Dhanmondi 15, Dhaka",
+      "points": [
+        "Developed Android and Flutter apps with real-time chat/live consultation flows.",
+        "Worked on JomiBaba messaging, consultation, and payment related features.",
+        "Improved user experience and app stability in production deliveries."
+      ]
+    },
+    {
+      "role": "Software Engineer (Android & Backend)",
+      "company": "MINISOFT PARK",
+      "period": "Mar 2021 - Apr 2022",
+      "location": "Tejgaon, Dhaka",
+      "points": [
+        "Built Android apps and backend APIs using Node.js and Express.js.",
+        "Implemented real-time communication with Socket.IO.",
+        "Worked on AnyDoctor consultation flow and API response optimization."
+      ]
+    },
+    {
+      "role": "Junior Android Developer",
+      "company": "R-Creations",
+      "period": "Oct 2019 - Feb 2021",
+      "location": "Muradpur, Chattogram",
+      "points": [
+        "Developed Android apps with PHP/MySQL based backend support.",
+        "Designed Material Design UI and improved UX through iterative fixes.",
+        "Built e-commerce features including login, cart, and payment flow."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "BSc in Computer Science & Engineering",
+      "institute": "World University of Bangladesh",
+      "period": "2021 - 2024"
+    },
+    {
+      "degree": "Diploma in Computer Engineering",
+      "institute": "Chandpur Polytechnic Institute",
+      "period": "2015 - 2019"
+    }
+  ],
+  "languages": [
+    "Bangla (Native)",
+    "English (Comfortable)"
+  ],
+  "lastUpdated": "April 13, 2026 (CV v4.0)"
+}
