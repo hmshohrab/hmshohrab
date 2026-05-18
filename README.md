@@ -1,60 +1,85 @@
-## Hi there, I'm [Md Shohrab Hossen!](https://hmshohrab.github.io) :wave: ![](https://komarev.com/ghpvc/?username=hmshohrab&color=green)
+# Md Shohrab Hossen
+**Software Engineer (Android & Flutter & Compose Multiplatform)**  
+Badda, Dhaka, Bangladesh
+ ![](https://komarev.com/ghpvc/?username=hmshohrab&color=green)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-hmshohrab-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/hmshohrab)
+[![GitHub](https://img.shields.io/badge/GitHub-Hmshohrab-181717?logo=github&logoColor=white)](https://github.com/Hmshohrab)
+[![Email](https://img.shields.io/badge/Email-hmshohrab20%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:hmshohrab20@gmail.com)
 
-Hi! I'm a mobile application developer, excellent analytical and design capabilities with keen attention to detail and overall quality of end result, my goals are to continue to provide a high-quality development service and to participate in successful projects and products. I'm specializing in the development of Android applications and work on many applications, from simple single-screen applications to large applications. I work on all aspects of the development lifecycle, applying my knowledge of OOP, MVVM, MVP, MVI, and MVC principles. My past work includes building user-focused, innovative, keep user security and performance UI, and developing clean code with teamwork.
+## Career Objective
+I am a mobile app developer with **5+ years** of experience in Android and Flutter development.  
+I have worked on telemedicine, land services, and government-related apps, always focusing on real-world problem solving, app performance, and better user experience.
 
+## Core Skills
+- **Languages:** Kotlin, Java, Dart
+- **Frameworks/Platforms:** Android, Flutter, Compose Multiplatform
+- **Databases:** SQLite, Room, MySQL
+- **Tools:** Git, GitHub, GitLab, Bitbucket, Jira, Slack, Android Studio
+- **Other:** REST API, Firebase, Google Maps API, Socket.IO, Agora SDK
 
-<a href="https://www.linkedin.com/in/md-shohrab-hossen-1586a81ba">
-<img align="left" alt="Hmshohrab's LinkedIN" width="32px" src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" /> You can reach me via LinkedIn 
-</a>
-<br/><br/><br/>
-<code><img height="40" src="https://terrakok.github.io/Compose-Multiplatform-Wizard/compose-logo.svg"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flutter/flutter.png"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/android/android.png"></code>
-<code><img height="40"   src="https://github.com/user-attachments/assets/4bd9673c-566d-4b8e-9ce0-13da07eb12a3"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code>
-<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
+## Experience
+### Software Engineer (Android & Flutter) | Pilot Bazar Limited
+**Feb 2025 - Present** | Gulshan, Dhaka  
+- Developing and maintaining mobile apps for a vehicle marketplace platform
+- Contributing to the `Click4Details` app
+- Building features for vehicle browsing, specifications, and listing experience
+- Integrating APIs and optimizing performance
 
-# About me in a few words:
-- Proficient with Java/Kotlin/Dart
-- Experience in developing, releasing and maintaining high-quality apps
-- Easy adaptive to business or any requirements
+### Software Engineer (Flutter) | Solution World Limited
+**Mar 2023 - Feb 2025** | Mohakhali DOHS, Dhaka  
+- Built cross-platform Flutter applications
+- Collaborated with design and backend teams for end-to-end delivery
+- Worked on API and third-party service integrations
+- Contributed to `HelloCt` app for Dhaka Metropolitan Police
 
-# Key things I've dealt with:
+### Software Engineer (Android & Flutter) | Data Grid Limited
+**May 2022 - Jul 2023** | Dhanmondi 15, Dhaka  
+- Developed Android and Flutter applications
+- Implemented real-time chat/live consultation features
+- Integrated payment systems and improved app stability
+- Worked on `JomiBaba` (messaging, consultation, payment)
 
-- Compose Multiplatform/Kotlin Multiplatform (Cross Platform)
-- Jetpack Compose 
-- Clean Architecture
-- Google Architecture components
-- MVP/MVVM/MVI/MVC
-- Single Activity
-- Dagger/Hilt/Koin
-- Firebase/Room/SQLite/MySql
-- RxJava/Coroutines
-- GoogleMap/Mapbox
-- Retrofit/Volley/Ktor
-- Sockets 
-  
-  
-  
+### Software Engineer (Android & Backend) | MINISOFT PARK
+**Mar 2021 - Apr 2022** | Tejgaon, Dhaka  
+- Built Android apps and backend APIs (Node.js, Express.js)
+- Implemented real-time communication with Socket.IO
+- Contributed to `AnyDoctor` telemedicine app
+- Improved API performance and response time
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/hmshohrab) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/hmshohrab) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/hmshohrab20) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/hmshohrab) 
+### Junior Android Developer | R-Creations
+**Oct 2019 - Feb 2021** | Muradpur, Chattogram  
+- Developed Android apps with PHP/MySQL backend
+- Designed UI using Material Design
+- Built e-commerce features (login, cart, payment)
+- Fixed bugs and improved UX
 
-# 💻 Tech Stack:
-![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) 
- 
+## Notable Projects
+- **Click4Details (Flutter):** Vehicle marketplace app for new, reconditioned, and used cars
+- **HelloCt (Flutter):** Anonymous crime reporting app for Dhaka Metropolitan Police
+- **MuminsDay (Multiplatform):** Prayer time, sehri/iftar schedule, Islamic calendar
+- **LandRegistrationBD (Android):** Land-related information and Q&A system
+- **AnyDoctor (Android):** Telemedicine app for doctor-patient consultation
+- **JomiBaba (Android):** Land consultation app with real-time messaging and live call
+- **Cashkeeper (Mobile):** Personal finance and expense tracking project
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Hmshohrab&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Hmshohrab&theme=dark&hide_border=false)<br/>
+## Education
+- **BSc in Computer Science & Engineering**  
+  World University of Bangladesh | 2021 - 2024
+- **Diploma in Computer Engineering**  
+  Chandpur Polytechnic Institute | 2015 - 2019
+
+## Languages
+- Bangla (Native)
+- English (Comfortable)
+
+## Tech Stack
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![Compose Multiplatform](https://img.shields.io/badge/Compose%20Multiplatform-4285F4?style=for-the-badge&logo=kotlin&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+
+## GitHub Stats
+![](https://github-readme-stats.vercel.app/api?username=Hmshohrab&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
+![](https://github-readme-streak-stats.herokuapp.com/?user=Hmshohrab&theme=dark&hide_border=false)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Hmshohrab&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
----
-[![](https://visitcount.itsvg.in/api?id=hmshohrab&label=Profile%20Views&icon=7&pretty=false)](https://visitcount.itsvg.in)
-
-
-  ## 💰 For a Coffee?
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/hmshohrab) 
-
-<img src="https://profile-counter.glitch.me/hmshohrab/count.svg" />
