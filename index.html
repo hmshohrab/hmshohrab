@@ -43,6 +43,34 @@
       gap: 18px;
     }
 
+    .version-switch {
+      width: min(1100px, 92vw);
+      margin: 14px auto 0;
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .version-btn {
+      text-decoration: none;
+      font-family: "Sora", sans-serif;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      color: #244268;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid #cfe0fa;
+      background: #f5f9ff;
+      line-height: 1;
+    }
+
+    .version-btn.active {
+      color: #ffffff;
+      border-color: #0b5fff;
+      background: #0b5fff;
+    }
+
     .card {
       background: var(--surface);
       border: 1px solid var(--line);
@@ -392,6 +420,9 @@
   </style>
 </head>
 <body>
+  <div class="version-switch">
+    <a class="version-btn" href="index-v2.html">Switch to V2</a>
+  </div>
   <main class="page">
     <header class="card hero">
       <div class="hero-top">

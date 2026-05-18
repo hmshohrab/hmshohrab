@@ -28,6 +28,49 @@
       --mono: 'DM Mono', monospace;
     }
 
+    /* ── LIGHT MODE ── */
+    [data-theme="light"] {
+      --bg: #f4f7fc;
+      --surface: #ffffff;
+      --surface2: #edf1f9;
+      --border: rgba(0,0,0,0.08);
+      --border2: rgba(0,0,0,0.13);
+      --text: #0f172a;
+      --muted: #4a5c78;
+      --dim: #8a9ab8;
+      --accent: #2563eb;
+      --accent2: #1d4ed8;
+      --accent3: #059669;
+      --accent-glow: rgba(37,99,235,0.1);
+      --gold: #d97706;
+    }
+    [data-theme="light"] .ambient-1 { background: #93c5fd; opacity: 0.25; }
+    [data-theme="light"] .ambient-2 { background: #bfdbfe; opacity: 0.2; }
+    [data-theme="light"] .ambient-3 { background: #6ee7b7; opacity: 0.15; }
+    [data-theme="light"] nav { background: rgba(244, 247, 252, 0.86); }
+    [data-theme="light"] .hero-name { color: #0f172a; }
+    [data-theme="light"] .hero-name em { color: var(--accent); }
+    [data-theme="light"] .section-title { color: #0f172a; }
+    [data-theme="light"] .project-name { color: #0f172a; }
+    [data-theme="light"] .exp-role { color: #0f172a; }
+    [data-theme="light"] .exp-company { color: var(--accent); }
+    [data-theme="light"] .stat-value { color: var(--accent); }
+    [data-theme="light"] .exp-period { background: var(--surface2); color: #4a5c78; }
+    [data-theme="light"] .exp-points li { color: #374151; }
+    [data-theme="light"] .objective-text { color: #1e293b; }
+    [data-theme="light"] .tag { background: rgba(37,99,235,0.07); color: #1d4ed8; border-color: rgba(37,99,235,0.18); }
+    [data-theme="light"] .chip-flutter { background: rgba(37,99,235,0.08); color: #2563eb; border-color: rgba(37,99,235,0.18); }
+    [data-theme="light"] .chip-android { background: rgba(5,150,105,0.08); color: #059669; border-color: rgba(5,150,105,0.18); }
+    [data-theme="light"] .chip-multiplatform { background: rgba(217,119,6,0.08); color: #d97706; border-color: rgba(217,119,6,0.18); }
+    [data-theme="light"] .lang-badge { background: rgba(5,150,105,0.08); color: #047857; border-color: rgba(5,150,105,0.18); }
+    [data-theme="light"] .hero-photo-frame { border-color: rgba(37,99,235,0.3); }
+    [data-theme="light"] .nav-pill { background: rgba(37,99,235,0.08); color: var(--accent); border-color: rgba(37,99,235,0.2); }
+    [data-theme="light"] .card::before { background: linear-gradient(90deg, var(--accent), transparent 60%); }
+    [data-theme="light"] body::before { opacity: 0.15; }
+
+    /* smooth theme transition */
+    *, *::before, *::after { transition: background-color 0.3s ease, border-color 0.3s ease, color 0.2s ease; }
+
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     html { scroll-behavior: smooth; }
@@ -56,6 +99,33 @@
       margin: 0 auto;
       position: relative;
       z-index: 1;
+    }
+
+    .version-switch {
+      width: min(1080px, 94vw);
+      margin: 12px auto 0;
+      display: flex;
+      justify-content: flex-end;
+      position: relative;
+      z-index: 2;
+    }
+    .version-btn {
+      text-decoration: none;
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      color: var(--muted);
+      border: 1px solid var(--border2);
+      background: var(--surface);
+      border-radius: 999px;
+      padding: 6px 10px;
+      line-height: 1;
+      transition: border-color 0.2s, color 0.2s, background 0.2s;
+    }
+    .version-btn:hover {
+      border-color: var(--accent);
+      color: var(--text);
     }
 
     /* ── AMBIENT BG LIGHTS ── */
@@ -688,6 +758,29 @@
     .hero-left > *:nth-child(5) { animation-delay: 0.30s; }
     .hero-photo-wrap { animation: fadeUp 0.6s 0.2s ease both; }
 
+    /* ── THEME TOGGLE ── */
+    .theme-toggle {
+      background: var(--surface2);
+      border: 1px solid var(--border2);
+      border-radius: 99px;
+      padding: 6px 14px 6px 10px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      cursor: pointer;
+      font-family: var(--mono);
+      font-size: 0.76rem;
+      color: var(--muted);
+      transition: border-color 0.2s, background 0.2s;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .theme-toggle:hover {
+      border-color: var(--accent);
+      color: var(--text);
+    }
+    .toggle-icon { font-size: 0.9rem; line-height: 1; }
+
     /* ── RESPONSIVE ── */
     @media (max-width: 768px) {
       .hero {
@@ -709,6 +802,10 @@
 </head>
 <body>
 
+<div class="version-switch">
+  <a class="version-btn" href="index.html">Switch to V1</a>
+</div>
+
 <div class="ambient ambient-1"></div>
 <div class="ambient ambient-2"></div>
 <div class="ambient ambient-3"></div>
@@ -723,7 +820,13 @@
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
       </ul>
-      <span class="nav-pill">Open to Work</span>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span class="nav-pill">Open to Work</span>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <span class="toggle-icon" id="toggle-icon">🌙</span>
+          <span id="toggle-label">Light</span>
+        </button>
+      </div>
     </div>
   </div>
 </nav>
@@ -857,6 +960,31 @@
 </div><!-- /container -->
 
 <script>
+  // ── THEME TOGGLE ──
+  const html = document.documentElement;
+  const btn = document.getElementById('theme-toggle');
+  const icon = document.getElementById('toggle-icon');
+  const label = document.getElementById('toggle-label');
+
+  const saved = localStorage.getItem('theme') || 'dark';
+  applyTheme(saved);
+
+  btn.addEventListener('click', () => {
+    const next = html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+    applyTheme(next);
+    localStorage.setItem('theme', next);
+  });
+
+  function applyTheme(theme) {
+    html.setAttribute('data-theme', theme);
+    if (theme === 'light') {
+      icon.textContent = '☀️';
+      label.textContent = 'Dark';
+    } else {
+      icon.textContent = '🌙';
+      label.textContent = 'Light';
+    }
+  }
   const profile = {
     person: {
       name: "Md Shohrab Hossen",
